@@ -15,11 +15,16 @@ Si tratta di un sito rigurdante l'azienda nature vista plants ovvero un'azienda 
 
 Un posto dove poter abbracciare il fascino della natura verso uno spazio verde e vivace ma sopratutto sostenibile per il nostro ambiente.
 
-ELEMENTI PRINCIPALI
-Nome del Brand-azienda
+ELEMENTI PRINCIPALI 
+
+Nome del Brand-azienda 
+
 Descrizione ed informazioni generali dell'azienda
+
 Descrizione dei prodotti
+
 Testimonial
+
 Contatti e profili social 
 
 STRUMENTI USATI
