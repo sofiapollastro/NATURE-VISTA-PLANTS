@@ -30,6 +30,8 @@ ELEMENTI PRINCIPALI
 STRUMENTI USATI
 
 -Codepen
+
 -Github
+
 -Netlify
 
