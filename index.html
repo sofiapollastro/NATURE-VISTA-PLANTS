@@ -1,175 +1,370 @@
-<!DOCTYPE html>
+<html lang="en">
 <html lang="it">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Il mio sito web</title>
-  <style>
-    /* Stili CSS */
-    body {
-      font-family: Arial, sans-serif;
-      margin: 0;
-      padding: 0;
-      background-color: #F5E6E8; 
-    }
-    header {
-      background-color: #333;
-      color: #fff;
-      padding: 20px;
-      text-align: center;
-      font-family: 'Arial Black', sans-serif;
-    }
-    main {
-      padding: 20px;
-      font-family: 'Georgia', serif;
-      text-align: center; /* Aggiunto per centrare il testo */
-    }
-    footer {
-      background-color: #333;
-      color: #fff;
-      padding: 20px;
-      text-align: center;
-      font-family: 'Verdana', sans-serif;
-    }
-    .logo {
-      text-align: center;
-      margin-bottom: 20px;
-    }
-    .menu {
-      list-style: none;
-      padding: 0;
-      display: flex;
-      justify-content: center;
-    }
-    .menu li {
-      margin-right: 10px;
-    }
-    .menu li a {
-      color: #333;
-      text-decoration: none;
-      font-size: 18px;
-    }
-    .menu li a:hover {
-      color: #555;
-    }
-  </style>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Nature Vista Plants</title>
+<link rel="stylesheet" href="style.css">
+<!-- FavIcon -->
+<link rel="shortcut icon" href="img/fav-icon.png" type="image/x-icon">
+<!-- BoxIcons -->
+<link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+<!-- Link Swiper's CSS -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
+
 </head>
 <body>
-  <header>
-    <h1>LA MODA IN SCAT📦LA</h1>
-  </header>
+<!-- PopUp Cookies -->
 
-  <div class="header">
-    <div class="logo">
-      <ul class="menu">
-        <li><a href="">🛍️HOME</a></li>
-        <li><a href="">📍CHI SONO</a></li>
-        <li><a href="">📍DOVE TROVARCI</a></li>
-        <li><a href="">📍LINK UTILI</a></li>
-        <li><a href="">📲CONTATTI</a></li>
-      </ul>
-    </div>
-  </div>
-
-  <main>
-    <h2>DI COSA SI TRATTA</h2>
-    
-    <p>Il progetto che desidero sviluppare, per sensibilizzare al meglio il tema della moda sostenibile, prende il nome di moda in scatola.</p>
-    <p>All’interno della scatola troveremo ago, fili, cartamodello e accessori a scopo decorativo.</p>
-    <p>La caratteristica distintiva di questo kit sono i tessuti che troviamo all’interno, interamente recuperati e riciclati da aziende di moda.</p>
-    <p>L’obiettivo di questo progetto prevede prima di tutto l’informazione di questa tematica per potersi avvicinare a questo mondo.</p>
-    <p>Un secondo obiettivo, per chi comprenderà e deciderà di sostenere questo pensiero, sarà la possibilità di mettere in pratica in completa autonomia le informazioni divulgate.</p>
-    <p>Successivamente, acquisita una cerca autonomia si potranno anche realizzare nuovi capi con i materiali e abiti di cui già si dispone mantenendo questa logica.</p>
-
-    <h2>CHI SONO</h2> 
-    <p>Sono Sofia, ho 22 anni e sono una laureanda in Fashion Design, all'Accademia di Belle Arti di Novara.</p>
-    <p>Ho voluto unire le competenze acquisite in questi anni di studio, insieme alla mia passione, per poter sviluppare questo progetto su una tematica molto importante.</p>
-    <p>Il target principale a cui è rivolto è la generazione z, che comunica in modo semplice, attraverso i social.</p>
-    
-    <h2>DOVE TROVARCI</h2>
-   
-<div style="text-align: center;">
-  <img src="" alt="MILANO" width="400" height="300">
+<div class="wrapper">
+<div class="data">
+<p>This website uses cookies to provide you with a more personalised and relevant browsing experience. <br/><a
+href="#"> READ MORE</a></p>
 </div>
+
+<div class="buttons">
+<button class="button" id="acceptBtn">ACCETTA</button>
+<button class="button" id="declineBtn">RIFIUTA</button>
+</div>
+</div>
+
+<!-- Go To Top Btn -->
+<a class="gotopbtn" href="#"><i class='bx bx-up-arrow-alt'></i></a>
+<!-- Header -->
+<header>
+<!-- Nav -->
+<div class="nav container">
+<!-- Logo -->
+<a href="#" class="logo">NATURE VISTA PLANTS</a>
+<!-- navbar -->
+<div class="navbar">
+<li><a href="#about" class="nav-link">🏠CHI SIAMO</a></li>
+<li><a href="#services" class="nav-link">🪴PRODOTTI</a></li>
+<!-- <li><a href="#package" class="nav-link">Packages</a></li> -->
+<li><a href="#testimonial" class="nav-link">
+👩🏻‍🌾TESTIMONIAL</a></li>
+<li><a href="#contact1" class="nav-link">📲CONTATTI</a></li>
+<a href="#" class="register-btn btn">REGISTRA</a>
+
+</div>
+<!-- Menu Icon -->
+<div class="menu-icon">
+<div class="line1"></div>
+<div class="line1"></div>
+<div class="line1"></div>
+</div>
+
+</div>
+</header>
+
+<!-- HOME -->
+<section class="home" id="home">
+<div class="home-data container">
+<!-- Home text -->
+<div class="home-text">
+<!-- <h3>We can help you to</h3> -->
+<h2>Expl🌍re our Botanical Haven. <br/> Il fascino della <br/> Natura.</h2>
+<div class="home-btns">
+<a href="#" class="book-btn btn">BUY NOW</a>
+<a href="#about" class="explore-btn btn">EXPLORE</a>
+</div>
+<!-- Home image -->
+<div class="home-img">
+<img src="https://i.postimg.cc/sfQFQHTY/home.jpg" alt="" />
+</div>
+<!-- Contact info -->
+<div class="contact-info">
+<div class="contact-info-box">
+<i class='bx bxs-map'></i>
+<span>VIA DE BIANCHI-NOVARA</span>
+</div>
+<div class="contact-info-box">
+<i class='bx bxs-phone' ></i>
+<span>+39 0321 845 845</span>
+</div>
+<div class="contact-info-box">
+<i class='bx bxs-envelope' ></i>
+<span>info@naturevistaplants.com</span>
+</div>
+</div>
+</div>
+
+<div class="home-bg">
+<img src="img/home.jpg" alt=""/>
+</div>
+
+</div>
+</section>
+<!-- About us -->
+<section class="about container" id="about">
+<!-- About Text -->
+<div class="about-text">
+<h2 class="heading">🏠ABOUT US</h2>
+<h1>La nostra passione coltivare la bellezza della natura.</h1>
+<p>Un luogo dove coltiviamo la bellezza della natura in modo eco-sostenibile.
+Esplora la nostra collezione e porta la vita all'aria aperta nel tuo spazio.
 </p>
-  
-    <h2>ORARI</h2>
-    <p>TUTTI I GIORNI</p>
-    <p>MATTINO</p>
-    <p>ORE 10.00-12.00</p>
-    <p>POMERIGGIO</p>
-    <p>ORE 15.00-18.00</p>
-    <p>CHIUSO IL SABATO E DOMENICA</p>
-    
-    <h2>LINK UTILI</h2>
-    <p><a href="https://www.vogue.it/moda/article/moda-inquinamento-problema-tinture-soluzioni">https://www.vogue.it/moda/article/moda-inquinamento-problema-tinture-soluzioni</a></p>
-    <p><a href="https://www.vogue.it/moda/article/moda-second-hand">https://www.vogue.it/moda/article/moda-second-hand</a></p>
-    <p><a href="https://www.vogue.it/tags/moda-sostenibile">https://www.vogue.it/tags/moda-sostenibile</a></p>
-    
-    <h2>CONTATTI</h2>
-    <p>TELEFONO</p>
-    <p>0321.802050</p>
-    <p>E-MAIL</p>
-    <p>LAMODAINSCATOLA@GMAIL.COM</p>
-  </main>
-  <div style="text-align: center;">
-  <h2>SE TI SERVE AIUTO CONTATTACI!</h2>
-  <form action="mailto:lamodainscatola@gmail.com" method="POST" enctype="text/plain">
-    <label for="name">NOME</label><br>
-    <input type="text" id="name" name="name" required><br><br>
-    <label for="email">E-MAIL</label><br>
-    <input type="email" id="email" name="email" required><br><br>
-    <label for="message">MESSAGGIO</label><br>
-    <textarea id="message" name="message" rows="4" required></textarea><br><br>
-    <input type="submit" value="Invia">
-  </form>
+<a href="#" class="learn-more">
+<span>LEARN MORE</span>
+<i class="bx bs-right-arrow-alt"></i>
+</a>
 </div>
-<!DOCTYPE html>
-<html>
-<head>
-  <title>Pulsanti social centrati</title>
-  <style>
-    .social-btns {
-      text-align: center;
-    }
+<!-- About Data -->
+<div class="about-data">
+<!-- Box 1 -->
+<div class="about-box">
+<img src="https://i.postimg.cc/jS6ZnyVQ/about-1.jpg" alt="" />
+<div class="about-overlay">
+<div class="overlay-text">
+<h2>FIDDLE LEAF FIG</h2>
+<p>Un albero da interni di grande impatto con foglie a forma di violino che elevano istantaneamente l'atmosfera di una stanza.
+<br/>Porta un tocco tropicale a casa tua!</p>
+</div>
+</div>
+</div>
+<!-- Box 2 -->
+<div class="about-box">
+<img src="https://i.postimg.cc/0Ncncxyz/about-2.jpg" alt="" />
+<div class="about-overlay">
+<div class="overlay-text">
+<h2>ZEBRA HAWORTHIA</h2>
+<p>A living work of art-this succulent's geometric
+patterns create a sense of wonder.</p>
+</div>
+</div>
+</div>
+<!-- Box 3 -->
+<div class="about-box">
+<img src="https://i.postimg.cc/fbw5ckD4/about-3.jpg" alt="" />
+<div class="about-overlay">
+<div class="overlay-text">
+<h2>DRAGON'S BLOOD TREE</h2>
+<p>Vi presentiamo l'Albero del Sangue di Drago. <br/>Una leggenda vivente proveniente dalle mistiche terre di Socotra.</p>
+</div>
+</div>
+</div>
+</div>
+</section>
 
-    .social-btn {
-      display: inline-block;
-      padding: 10px;
-      margin: 5px;
-      border: none;
-      text-decoration: none;
-      color: #fff;
-      font-weight: bold;
-      text-align: center;
-      cursor: pointer;
-    }
+<!-- SERVICES -->
+<section class="services container" id="services">
+<!-- Services content -->
+<div class="swiper services-content">
+<div class="swiper-wrapper">
+<!-- Box 1 -->
+<div class="swiper-slide">
+<div class="service-box">
+<div class="ser-img">
+<img src="https://i.postimg.cc/MZhCy0Lh/service-1.jpg" alt=""/>
+</div>
+<div class="box-data">
+<h2 class="heading">🪴OUR PRODUCTS</h2>
+<h2>SUSTAINABLE PLANTS</h2>
+<p>
+Il nostro assortimento di piante porta un mondo di bellezza nel tuo spazio.
+<br/>Piante eco-sostenibili e a bassa manutenzione disponibili in una vasta gamma di forme e colori.
+<br/>Sono perfette per creare affascinanti giardini e aggiungere un tocco di natura alla tua casa.
+</p>
+<div class="package">
+<div class="p-box">
+<i class='bx bxs-badge-check'></i>
+<span>15-EU ONLY</span>
+</div>
+<div class="p-box">
+<i class='bx bxs-badge-check'></i>
+<span>MATERIAL-CONCRETED</span>
+</div>
+<!-- Btn -->
+<a href="#" class="book-now btn">BUY NOW</a>
+</div>
+</div>
+</div>
+</div>
+<!-- Box 2 -->
+<div class="swiper-slide">
+<div class="service-box">
+<div class="ser-img">
+<img src="https://i.postimg.cc/bvNWzmG2/service-2.jpg" alt=""/>
+</div>
+<div class="box-data">
+<h2 class="heading">🪴OUR PRODUCTS</h2>
+<h2>LAVANDER HERB</h2>
+<p>
+Embrace the soothing aroma and versatility of Lavender.
+<br/>This fragrant herb is not only a delight for your senses but also a culinary and relaxation staple. <br/>Grow it indoors or outdoors to enjoy its calming scent and use it in everything.
+</p>
+<div class="package">
+<div class="p-box">
+<i class='bx bxs-badge-check'></i>
+<span>50-EU ONLY</span>
+</div>
+<div class="p-box">
+<i class='bx bxs-badge-check'></i>
+<span>MATERIAL-FIBERGLASSF</span>
+</div>
+<!-- Btn -->
+<a href="#" class="book-now btn">BUY NOW</a>
+</div>
+</div>
+</div>
+</div>
+<!-- Box 3 -->
+<div class="swiper-slide">
+<div class="service-box">
+<div class="ser-img">
+<img src="https://i.postimg.cc/qMy9QhVg/service-3.jpg" alt=""/>
+</div>
+<div class="box-data">
+<h2 class="heading">🪴OUR PRODUCTSP</h2>
+<h2>MONSTERA DELICIOSA</h2>
+<p>
+The Monstera Deliciosa also known as the Swiss Cheese Plant. <br/>Boasts uniquely perforated leaves that lend an exotic vibe to interiors.
+<br/>Its lush growth pattern adds a tropical touch to your surroundings making it a beloved choice among plant enthusiasts.
+</p>
+<div class="package">
+<div class="p-box">
+<i class='bx bxs-badge-check'></i>
+<span>35-EU ONLY</span>
+</div>
+<div class="p-box">
+<i class='bx bxs-badge-check'></i>
+<span>MATERIAL-CONCRETED</span>
+</div>
+<!-- Btn -->
+<a href="#" class="book-now btn">BUY NOW</a>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<!-- swiper btns -->
+<div class="slider-btns">
+<div class="swiper-button-prev"></div>
+<div class="swiper-button-next"></div>
+</div>
+</section>
+<!-- Testimonial -->
+<section class="testimonial container" id="testimonial">
+<h2 class="heading">👩🏻‍🌾TESTIMONIAL</h2>
+<h3>
+What our beloves customer say about us.
+</h3>
+<!-- Testimonial data -->
+<div class="testimonial-data">
+<!-- Box 1 -->
+<div class="t-box">
+<div class="t-img">
+<img src="https://i.postimg.cc/pTSZMZ8x/testimonial-1.jpg" alt=""/>
+<i class='bx bxs-quote-alt-right'></i>
+</div>
+<h2>ALEX M.</h2>
+<p>
+This is the place to go for top-notch plants!
+<br/>I ordered a succulent assortment and each plant was so well-packed and healthy.
+<br/>It's clear that they prioritize quality.
+Plus, the affordable prices make it easy to grow my indoor garden.
+<br/>I've recommended this shop to all my friends!
+</p>
+</div>
+<!-- Box 2 -->
+<div class="t-box">
+<div class="t-img">
+<img src="https://i.postimg.cc/90qBm7t9/testimonial-2.jpg" alt=""/>
+<i class='bx bxs-quote-alt-right'></i>
+</div>
+<h2>MARK R.</h2>
+<p>
+Sono un principiante quando si tratta di piante ma l'erba di lavanda che ho acquistato qui è stata una delizia!
+<br/>La pianta è arrivata velocemente e le istruzioni fornite hanno reso la cura della pianta un gioco da ragazzi.
+<br/>I prezzi sono un vero affare per la qualità che ricevi.
+</p>
+</div>
+<!-- Box 3 -->
+<div class="t-box">
+<div class="t-img">
+<img src="https://i.postimg.cc/hhW1ftp5/testimonial-3.jpg" alt=""/>
+<i class='bx bxs-quote-alt-right'></i>
+</div>
+<h2>IMELDA MORETTI</h2>
+<p>
+Bravo to this store for their attention to detail.
+<br/>I ordered a Peace Lily and not only was the plant meticulously packaged but it's also thriving beautifully.
+<br/>The shopping experience was wonderful from start to finish. <br/>Quality-affordability
+and outstanding customer service – they have it all!
+</p>
+</div>
+</div>
+</section>
+<!-- Contact -->
+<section class="container" id="contact1" >
+<h2 class="heading">📲CONTACT US</h2>
+<form id="contact" >
+<h4>Porta la natura a casa!🌱 <br/>Reach out to us now and embark on your journey to a greener,
+more vibrant space. <br/>Let's find the perfect plants that match your style and enrich your surroundings!</h4>
+<fieldset>
+<input placeholder="NAME" type="text" tabindex="1" required autofocus>
+</fieldset>
+<fieldset>
+<input placeholder=" E-MAIL" type="email" tabindex="2" required>
+</fieldset>
+<fieldset>
+<input placeholder="PHONE NUMBER" type="tel" tabindex="3" required>
+</fieldset>
+<fieldset>
+<input placeholder="WEB SITE (OPTIONAL)" type="url" tabindex="4" required>
+</fieldset>
+<fieldset>
+<textarea placeholder="TYPE YOUR MESSAGE HERE" tabindex="5" required></textarea>
+</fieldset>
+<fieldset>
+<button name="submit" type="submit" id="contact-submit" data-submit="...Sending">SUBMIT</button>
+</fieldset>
+</form>
+</section>
 
-    .instagram-btn {
-      background-color: #c32aa3;
-    }
+<!-- FOOTER -->
+<section class="footer">
+<div class="footer-container container">
+<div class="footer-box">
+<a href="#home" class="logo">NATURE VISTA PLANTS</a>
+<div class="social">
+<a href="https://www.facebook.com/"><i class='bx bxl-facebook-square'></i></a>
+<a href="https://www.instagram.com/"><i class='bx bxl-instagram-alt' ></i></a>
+<a href="https://twitter.com/?lang=en"><i class='bx bxl-twitter'></i></a>
+<a href="https://www.youtube.com/"><i class='bx bxl-youtube'></i></a>
+</div>
+</div>
+<div class="footer-box">
+<h3>🪴PRODUCTS</h3>
+<a href="">Lavender Herb</a>
+<a href="">Succulent Assortment</a>
+<a href="">Dragon's Blood Tree</a>
+</div>
+<div class="footer-box">
+<h3>🔐LEGAL</h3>
+<a href="">Privacy</a>
+<a href="">Refund Policy</a>
+<a href="">Cookie Policy</a>
+</div>
+<div class="footer-box">
+<h3>📲CONTACT</h3>
+<p >Italy</p>
+<p >Canada</p>
+<p>Germany</p>
+</div>
+</div>
+</section>
+<div class="copyright">
+<p>&#169; NATURE VISTA PLANTS</p>
+</div>
 
-    .pinterest-btn {
-      background-color: #bd081c;
-    }
-
-    .facebook-btn {
-      background-color: #3b5998;
-    }
-  </style>
-</head>
-<body>
-  <div class="social-btns">
-    <a class="social-btn instagram-btn" href="https://www.instagram.com/">INSTAGRAM</a>
-    <a class="social-btn pinterest-btn" href="https://www.pinterest.com/">PINTEREST</a>
-    <a class="social-btn facebook-btn" href="https://www.facebook.com/">FACEBBOK</a>
-  </div>
+<!-- Swiper JS -->
+<script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+<script src="script.js"></script>
 </body>
 </html>
+ 
 
 
-  <footer>
-    <p>COPYRIGHT 2023. TUTTI I DIRITTI RISERVATI.</p>
-  </footer>
-</body>
-</html>
+ 
