@@ -6,7 +6,8 @@ Accademia di Belle Arti - ACME Novara
 
 Indirizzo Fashion design - Anno scolastico 2022-2023 - Matricola 792.
 
-IL PROGETTO
+IL PROGETTO 
+
 Realizzazione di un sito web mono-pagina con tema a scelta.
 
 Il progetto ha come scopo finale la creazione di una pagina responsive che comprenda diversi elementi.
