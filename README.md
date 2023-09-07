@@ -17,15 +17,15 @@ Un posto dove poter abbracciare il fascino della natura verso uno spazio verde e
 
 ELEMENTI PRINCIPALI 
 
-Nome del Brand-azienda 
+-Nome del Brand-azienda 
 
-Descrizione ed informazioni generali dell'azienda
+-Descrizione ed informazioni generali dell'azienda
 
-Descrizione dei prodotti
+-Descrizione dei prodotti
 
-Testimonial
+-Testimonial
 
-Contatti e profili social 
+-Contatti e profili social 
 
 STRUMENTI USATI
 
