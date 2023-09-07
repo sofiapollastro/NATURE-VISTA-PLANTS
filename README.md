@@ -16,7 +16,7 @@ Contatti e profili social
 STRUMENTI USATI
 Codepen
 Github
-Netifly
+Netlify
 
 INFORMAZIONI ESAME
 Progetto a cura di Pollastro Sofia 
