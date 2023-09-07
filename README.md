@@ -4,7 +4,7 @@ Corso Web Design 1 - Prof. Matteo Baccan
 
 Accademia di Belle Arti - ACME Novara
 
-Indirizzo Fashion design - Anno scolastico 2022-2023 - Matricola 792.
+Indirizzo Fashion Design - Anno scolastico 2022-2023 - Matricola 792.
 
 IL PROGETTO 
 
