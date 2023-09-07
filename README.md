@@ -8,8 +8,8 @@ Un posto dove poter abbracciare il fascino della natura verso uno spazio verde e
 
 ELEMENTI PRINCIPALI
 Nome del Brand-azienda
-Descrzione ed informazioni generali dell'azienda
-Descrzione dei prodotti
+Descrizione ed informazioni generali dell'azienda
+Descrizione dei prodotti
 Testimonial
 Contatti e profili social 
 
