@@ -21,8 +21,8 @@ Testimonial
 Contatti e profili social 
 
 STRUMENTI USATI
-Codepen
-Github
-Netlify
 
+-Codepen
+-Github
+-Netlify
 
